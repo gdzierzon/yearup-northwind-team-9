@@ -1,41 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Northwind Traders</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">Features</a>
-                  <a class="nav-link" href="#">Pricing</a>
-                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                </div>
-              </div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+              <a class="nav-link" href="products.html">Products</a>
             </div>
-          </nav>
+          </div>
+        </div>
+      </nav>
     </header>
 
-    <section id="home-image">
-        
-        <img src="images/grocery.png" alt="Home Image" id="home-image">
+    <section class="text-center mt-2">
+      <img src="images/grocery.png" alt="Home Image" id="home-image" />
     </section>
 
-    
+    <section class="container mt-5 d-flex">
+      <div class="row">
+        <div class="col">
+          <h3>Elevate Your Plate, Simplify Your Shop</h3>
 
-    
-</body>
+          <div class="mt-5">
+            <h5>Your Everyday Items Here</h5>
+            <ul>
+              <li>Dairy</li>
+              <li>Meats</li>
+              <li>Fruits and Vegetables</li>
+            </ul>
+            <div class="mt-5">
+              <h2>Ongoing Deals!</h2>
+              <p></p>
+              <h4>Product 1</h4>
+              50% off
+              <p></p>
+              <p></p>
+              <h4>Product 2</h4>
+              25% off
+              <p></p>
+              <p></p>
+              <h4>Product 3</h4>
+              10% off
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <img src="images/NorthwindLogo.jpeg" />
+        </div>
+      </div>
+    </section>
+
+    <footer style="background-color: #deded5">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4">
+            <h5 class="mb-3" style="letter-spacing: 2px; color: #818963">
+              Our Goal
+            </h5>
+            <p>
+              At our grocery store, we aim to be more than just a retail
+              space—we're dedicated to creating lasting connections within our
+              community. By offering a diverse selection of high-quality
+              products, prioritizing sustainability, and sourcing locally
+              whenever possible, we strive to meet the unique needs and
+              preferences of every customer. Our goal is to provide an inviting
+              and enjoyable shopping experience, where individuals can discover
+              new flavors, make healthier choices, and find the ingredients that
+              inspire them. Above all, we are committed to exceptional service
+              that fosters a sense of community and reflects our dedication to
+              the well-being and satisfaction of our neighbors and friends.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="mb-3" style="letter-spacing: 2px; color: #818963">
+              links
+            </h5>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-1">
+                <a href="#!" style="color: #4f4f4f"
+                  >Frequently Asked Questions</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="#!" style="color: #4f4f4f">Delivery</a>
+              </li>
+              <li class="mb-1">
+                <a href="#!" style="color: #4f4f4f">Pricing</a>
+              </li>
+              <li>
+                <a href="#!" style="color: #4f4f4f">Where we deliver?</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="mb-1" style="letter-spacing: 2px; color: #818963">
+              opening hours
+            </h5>
+            <table class="table" style="color: #4f4f4f; border-color: #666">
+              <tbody>
+                <tr>
+                  <td>Mon - Fri:</td>
+                  <td>8am - 9pm</td>
+                </tr>
+                <tr>
+                  <td>Sat - Sun:</td>
+                  <td>8am - 1am</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+    </footer>
+  </body>
 </html>
